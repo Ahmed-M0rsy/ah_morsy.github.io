@@ -10,10 +10,11 @@
         .container { background-color: white; padding: 20px; border-radius: 10px; max-width: 800px; margin: auto; }
         h1, h2 { color: #007acc; }
         p, li { color: #333; }
-        ul { list-style-type: none; padding: 0; }
+        ul { list-style-type: square ; padding:16px; padding-top: 5px ; padding-bottom: 5px; margin-top: auto; margin-bottom: auto; }
         .contact { margin-bottom: 20px; }
         .contact a { text-decoration: none; color: #007acc; }
         .section { margin-bottom: 30px; }
+        .split-text { display: flex; justify-content: space-between; }
     </style>
 </head>
 <body>
@@ -21,7 +22,7 @@
         <h1>Ahmed Morsy</h1>
         <p class="contact">
             Giza, Egypt<br>
-            Marital Status: Single &mdash; Military Service: Exempted<br>
+            <!-- Marital Status: Single &mdash; Military Service: Exempted<br> -->
             <a href="tel:+201069888686">+2 01069888686</a><br>
             <a href="mailto:ah.morsy@outlook.com">ah.morsy@outlook.com</a><br>
             <a href="https://linkedin.com/in/ah-morsy">LinkedIn Profile</a><br>
@@ -39,20 +40,44 @@
 
         <div class="section">
             <h2>Education</h2>
-            <p><strong>ALX Africa</strong><br>
-            Data Science Program, May. 2023 - Sep. 2024</p>
-            <p><strong>Cairo University, The Institute of Statistical Studies and Research</strong><br>
-            Professional Graduate Diploma in Data Analysis, Sep. 2018 – May 2019</p>
-
-            <p><strong>Banha University, Faculty of Commerce</strong><br>
-            Bachelor of Commerce, Statistics Department, Sep. 2009 – May 2018</p>
+            <strong>ALX Africa</strong>
+            <div class="split-text">
+                <span>Data Science Program</span>
+                <span>May. 2023 - Sep. 2024</span>
+            </div>
+            <ul>
+                <li>ALX Foundations (Soft skills)</li>
+                <li>Explore [Problem-solving - Programmatic thinking]</li>
+                <li>Preparing data [Spreadsheets - Data manipulation - Introduction to statistics - Introduction to data modelling]</li>
+                <li>SQL [Relational database design - Data manipulation]</li>
+                <li>Data visualisation and storytelling [Power BI - Dashboards - Visual storytelling]</li>
+                <li>Python [Programming basics - Functions & Control flow - Data structures - Exploratory data analysis]</li>
+                <li>Regression [Steps to build a model - Preparing data for modelling - Algorithms for regression models - Model tuning]</li>
+                <li>NLP & Classification [Analysing text - Basic & Advanced classification]</li>
+                <li>Unsupervised learning [Dimensionality reduction - Hard & hierarchical clustering - Soft clustering - Recommender systems]</li>
+                <li>AWS foundations [Basics - Introduction to AWS - Storage & compute resources - Cloud best practice]</li>
+            </ul>
+            <br>
+            <strong>Cairo University, The Institute of Statistical Studies and Research</strong>
+            <div class="split-text">
+                <span>Professional Graduate Diploma in Data Analysis</span>
+                <span>Sep. 2018 – May 2019</span>
+            </div>
+            <br>
+            <strong>Banha University, Faculty of Commerce</strong>
+            <div class="split-text">
+                <span>Bachelor of Commerce, Statistics Department</span>
+                <span>Sep. 2009 – May 2018</span>
+            </div>
         </div>
 
         <div class="section">
             <h2>Experience</h2>
-
-            <p><strong>El Diwan (Co-Founder)</strong><br>
-            Aug 2019 – Present, Banha, Egypt</p>
+            <strong>El Diwan (Co-Founder)</strong>
+            <div class="split-text">
+                <span>Banha, Egypt</span>
+                <span>Aug. 2019 – Present</span>
+            </div>
             <ul>
                 <li>Develop and refine the overall strategy and vision for the co-working space, aligning it with business goals through data-driven insights and market analysis.</li>
                 <li>Identify and pursue opportunities by analyzing market trends, conducting feasibility studies, and leveraging data on client demographics and preferences.</li>
@@ -64,7 +89,7 @@
             </ul>
 
             <p><strong>Al Farid (Accountant)</strong><br>
-            Jul 2015 – May 2019, Banha, Egypt</p>
+            Jul. 2015 – May. 2019, Banha, Egypt</p>
             <ul>
                 <li>Processed confidential data and information according to guidelines. Documented financial transactions.</li>
                 <li>Summarized current financial status for stakeholders.</li>
@@ -74,7 +99,9 @@
 
         <div class="section">
             <h2>Languages</h2>
-            <p>Arabic: Native<br>English: Fluent</p>
+            <ul>
+                <li>Arabic: Native</li>
+                <li>English: Fluent</li>
         </div>
     </div>
 </body>
